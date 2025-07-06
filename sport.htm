@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="sport.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="sport.js">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fab fa-spotify"></i>
+                <span>Spotify</span>
+            </div>
+            <ul class="menu">
+                <li class="active"><i class="fas fa-home"></i> <span>Início</span></li>
+                <li><i class="fas fa-search"></i> <span>Buscar</span></li>
+                <li><i class="fas fa-book"></i> <span>Sua Biblioteca</span></li>
+                <br>
+                <li><i class="fas fa-plus-square"></i> <span>Criar Playlist</span></li>
+                <li><i class="fas fa-heart"></i> <span>Músicas Curtidas</span></li>
+            </ul>
+            <div class="playlists">
+                <h3>PLAYLISTS</h3>
+                <ul>
+                    <li>Rock Clássico</li>
+                    <li>Top Brasil</li>
+                    <li>Foco no Estudo</li>
+                    <li>Treino Pesado</li>
+                    <li>Chill Out</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <div class="nav-buttons">
+                    <button class="arrow-left"><i class="fas fa-chevron-left"></i></button>
+                    <button class="arrow-right"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="user-menu">
+                    <button class="upgrade">UPGRADE</button>
+                    <div class="user">
+                        <img src="img/Imagem do WhatsApp de 2025-04-29 à(s) 11.15.48_7206b3fd.jpg" alt="user">
+                        <span>Filipe</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <h1>Boa tarde</h1>
+                <div class="playlist-grid">
+                    <div class="playlist-card">
+                        <img src="img/Rock classico.webp" alt="Playlist">
+                        <h3>Rock Clássico</h3>
+                        <p>As melhores do rock dos anos 70, 80 e 90</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="img/Rosé_&_Bruno_Mars_-_Apt.png" alt="Playlist">
+                        <h3>Pop Hits</h3>
+                        <p>Os maiores sucessos pop do momento</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="img/hatsune miku.jpg" alt="Playlist">
+                        <h3>Eletrônica</h3>
+                        <p>Batidas para animar sua festa</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="img/LOFI.webp" alt="Playlist">
+                        <h3>Jazz Relax</h3>
+                        <p>Para relaxar e descontrair</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="img/seujorgefabionunes.webp" alt="Playlist">
+                        <h3>Clássicos</h3>
+                        <p>Músicas clássicas imortais</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="img/Astroworld_Travis.jpg" alt="Playlist">
+                        <h3>Hip Hop</h3>
+                        <p>As batidas mais pesadas</p>
+                    </div>
+                </div>
+
+                <h2>Seus programas</h2>
+                <div class="shows-grid">
+                    <div class="show-card">
+                        <img src="img/logotipo-flow-podcast.webp" alt="Show">
+                        <h3>Podcast Diário</h3>
+                        <p>Notícias e atualizações diárias</p>
+                    </div>
+                    <div class="show-card">
+                        <img src="img/250px-Podpah.webp" alt="Show">
+                        <h3>Conversas</h3>
+                        <p>Entrevistas com artistas</p>
+                    </div>
+                    <div class="show-card">
+                        <img src="img/comedia.jpg" alt="Show">
+                        <h3>Comédia</h3>
+                        <p>Stand-up e humor</p>
+                    </div>
+                    <div class="show-card">
+                        <img src="img/G1.png" alt="Show">
+                        <h3>Notícias</h3>
+                        <p>As principais notícias do dia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player -->
+        <div class="player">
+            <div class="song-info">
+                <img src="img/chicago.jpg" alt="Album">
+                <div class="song-details">
+                    <h4>Chicago</h4>
+                    <p>Michael Jackson</p>
+                </div>
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="player-controls">
+                <div class="controls">
+                    <button><i class="fas fa-random"></i></button>
+                    <button><i class="fas fa-step-backward"></i></button>
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                    <button><i class="fas fa-step-forward"></i></button>
+                    <button><i class="fas fa-redo"></i></button>
+                </div>
+                <div class="progress-bar">
+                    <span>0:00</span>
+                    <div class="progress">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span>4:06</span>
+                </div>
+            </div>
+            <div class="player-options">
+                <button><i class="fas fa-list"></i></button>
+                <button><i class="fas fa-laptop"></i></button>
+                <button><i class="fas fa-volume-up"></i></button>
+                <div class="volume-slider">
+                    <input type="range" min="0" max="100" value="80">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
